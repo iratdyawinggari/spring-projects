@@ -1,0 +1,323 @@
+2019-12-25 21:40:42,987 INFO org.springframework.boot.StartupInfoLogger [main] Starting Application on irat with PID 13307 (/home/irat/eclipse-workspace/Final/target/classes started by irat in /home/irat/eclipse-workspace/Final)
+2019-12-25 21:40:42,994 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-12-25 21:40:42,996 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-12-25 21:40:44,349 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-25 21:40:44,550 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 166ms. Found 11 repository interfaces.
+2019-12-25 21:40:45,216 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5fb33a09] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-25 21:40:45,716 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 3456 (http)
+2019-12-25 21:40:45,752 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-3456"]
+2019-12-25 21:40:45,781 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2019-12-25 21:40:45,782 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-12-25 21:40:46,035 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2019-12-25 21:40:46,035 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2959 ms
+2019-12-25 21:40:46,280 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2019-12-25 21:40:46,921 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2019-12-25 21:40:47,015 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-12-25 21:40:47,129 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.10.Final}
+2019-12-25 21:40:47,132 INFO org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2019-12-25 21:40:47,370 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-12-25 21:40:47,591 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-12-25 21:40:48,662 INFO org.hibernate.tuple.PojoInstantiator [main] HHH000182: No default (no-argument) constructor for class: com.enigma.finalproject.entity.Reservation (class must be instantiated by Interceptor)
+2019-12-25 21:40:48,894 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-12-25 21:40:49,375 INFO org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [main] HHH000397: Using ASTQueryTranslatorFactory
+2019-12-25 21:40:50,259 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-25 21:40:50,338 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-12-25 21:40:50,683 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-3456"]
+2019-12-25 21:40:50,741 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 3456 (http) with context path ''
+2019-12-25 21:40:50,762 INFO org.springframework.boot.StartupInfoLogger [main] Started Application in 8.518 seconds (JVM running for 9.126)
+2019-12-25 21:40:50,773 TRACE com.enigma.finalproject.Application [main] A trace message
+2019-12-25 21:40:50,774 DEBUG com.enigma.finalproject.Application [main] A debug message
+2019-12-25 21:40:50,775 INFO com.enigma.finalproject.Application [main] An Info message
+2019-12-25 21:40:50,775 WARN com.enigma.finalproject.Application [main] A Warn message
+2019-12-25 21:40:50,775 ERROR com.enigma.finalproject.Application [main] An Error Message
+2019-12-25 21:41:32,108 INFO org.springframework.boot.StartupInfoLogger [main] Starting Application on irat with PID 13389 (/home/irat/eclipse-workspace/Final/target/classes started by irat in /home/irat/eclipse-workspace/Final)
+2019-12-25 21:41:32,113 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-12-25 21:41:32,115 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-12-25 21:41:33,325 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-25 21:41:33,483 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 145ms. Found 11 repository interfaces.
+2019-12-25 21:41:34,176 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e913b03e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-25 21:41:34,607 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 3456 (http)
+2019-12-25 21:41:34,631 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-3456"]
+2019-12-25 21:41:34,652 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2019-12-25 21:41:34,652 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-12-25 21:41:34,854 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2019-12-25 21:41:34,854 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2655 ms
+2019-12-25 21:41:35,091 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2019-12-25 21:41:35,754 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2019-12-25 21:41:35,869 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-12-25 21:41:35,965 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.10.Final}
+2019-12-25 21:41:35,968 INFO org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2019-12-25 21:41:36,212 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-12-25 21:41:36,428 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-12-25 21:41:37,509 INFO org.hibernate.tuple.PojoInstantiator [main] HHH000182: No default (no-argument) constructor for class: com.enigma.finalproject.entity.Reservation (class must be instantiated by Interceptor)
+2019-12-25 21:41:37,729 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-12-25 21:41:38,225 INFO org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [main] HHH000397: Using ASTQueryTranslatorFactory
+2019-12-25 21:41:39,090 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-25 21:41:39,159 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-12-25 21:41:39,519 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-3456"]
+2019-12-25 21:41:39,529 ERROR org.apache.juli.logging.DirectJDKLog [main] Failed to start component [Connector[HTTP/1.1-3456]]
+org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1008)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:227)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:263)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:195)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:296)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:162)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:742)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:389)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1213)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1202)
+	at com.enigma.finalproject.Application.main(Application.java:14)
+Caused by: java.net.BindException: Address already in use
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:455)
+	at java.base/sun.nio.ch.Net.bind(Net.java:447)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:227)
+	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:80)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:230)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:213)
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1124)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1210)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:585)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1005)
+	... 14 common frames omitted
+2019-12-25 21:41:39,535 INFO org.apache.juli.logging.DirectJDKLog [main] Pausing ProtocolHandler ["http-nio-3456"]
+2019-12-25 21:41:39,536 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2019-12-25 21:41:39,542 INFO org.apache.juli.logging.DirectJDKLog [main] The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+2019-12-25 21:41:39,543 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping ProtocolHandler ["http-nio-3456"]
+2019-12-25 21:41:39,543 INFO org.apache.juli.logging.DirectJDKLog [main] Destroying ProtocolHandler ["http-nio-3456"]
+2019-12-25 21:41:39,548 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-12-25 21:41:39,550 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 3456 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 3456, or configure this application to listen on another port.
+
+2019-12-25 21:41:39,554 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-12-25 21:41:39,559 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-12-25 21:41:39,564 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
+2019-12-25 21:41:39,581 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown completed.
+2019-12-25 21:41:43,248 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-2] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-12-25 21:41:43,260 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-2] Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-12-25 21:41:43,265 INFO com.zaxxer.hikari.HikariDataSource [Thread-2] HikariPool-1 - Shutdown initiated...
+2019-12-25 21:41:43,290 INFO com.zaxxer.hikari.HikariDataSource [Thread-2] HikariPool-1 - Shutdown completed.
+2019-12-25 21:41:50,223 INFO org.springframework.boot.StartupInfoLogger [main] Starting Application on irat with PID 13452 (/home/irat/eclipse-workspace/Final/target/classes started by irat in /home/irat/eclipse-workspace/Final)
+2019-12-25 21:41:50,227 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-12-25 21:41:50,228 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-12-25 21:41:51,396 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-25 21:41:51,598 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 187ms. Found 11 repository interfaces.
+2019-12-25 21:41:52,156 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2e458d21] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-25 21:41:52,622 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 3456 (http)
+2019-12-25 21:41:52,659 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-3456"]
+2019-12-25 21:41:52,681 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2019-12-25 21:41:52,681 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-12-25 21:41:52,935 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2019-12-25 21:41:52,936 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2652 ms
+2019-12-25 21:41:53,163 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2019-12-25 21:41:53,730 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2019-12-25 21:41:53,821 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-12-25 21:41:53,937 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.10.Final}
+2019-12-25 21:41:53,940 INFO org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2019-12-25 21:41:54,213 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-12-25 21:41:54,410 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-12-25 21:41:55,375 INFO org.hibernate.tuple.PojoInstantiator [main] HHH000182: No default (no-argument) constructor for class: com.enigma.finalproject.entity.Reservation (class must be instantiated by Interceptor)
+2019-12-25 21:41:55,590 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-12-25 21:41:56,300 INFO org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [main] HHH000397: Using ASTQueryTranslatorFactory
+2019-12-25 21:41:57,238 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-25 21:41:57,315 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-12-25 21:41:57,673 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-3456"]
+2019-12-25 21:41:57,708 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 3456 (http) with context path ''
+2019-12-25 21:41:57,714 INFO org.springframework.boot.StartupInfoLogger [main] Started Application in 8.253 seconds (JVM running for 8.785)
+2019-12-25 21:41:57,717 TRACE com.enigma.finalproject.Application [main] A trace message
+2019-12-25 21:41:57,718 DEBUG com.enigma.finalproject.Application [main] A debug message
+2019-12-25 21:41:57,718 INFO com.enigma.finalproject.Application [main] An Info message
+2019-12-25 21:41:57,719 WARN com.enigma.finalproject.Application [main] A Warn message
+2019-12-25 21:41:57,719 ERROR com.enigma.finalproject.Application [main] An Error Message
+2019-12-25 21:42:54,842 INFO org.apache.juli.logging.DirectJDKLog [http-nio-3456-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-25 21:42:54,844 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-3456-exec-1] Initializing Servlet 'dispatcherServlet'
+2019-12-25 21:42:54,858 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-3456-exec-1] Completed initialization in 14 ms
+2019-12-25 22:54:06,552 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-2] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-12-25 22:54:06,559 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-2] Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-12-25 22:54:06,561 INFO com.zaxxer.hikari.HikariDataSource [Thread-2] HikariPool-1 - Shutdown initiated...
+2019-12-25 22:54:06,566 INFO com.zaxxer.hikari.HikariDataSource [Thread-2] HikariPool-1 - Shutdown completed.
+2019-12-25 22:54:13,983 INFO org.springframework.boot.StartupInfoLogger [main] Starting Application on irat with PID 15199 (/home/irat/eclipse-workspace/Final/target/classes started by irat in /home/irat/eclipse-workspace/Final)
+2019-12-25 22:54:13,986 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-12-25 22:54:13,986 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-12-25 22:54:14,625 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-25 22:54:14,741 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 108ms. Found 11 repository interfaces.
+2019-12-25 22:54:15,099 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$52dad752] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-25 22:54:15,343 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 3456 (http)
+2019-12-25 22:54:15,361 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-3456"]
+2019-12-25 22:54:15,378 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2019-12-25 22:54:15,378 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-12-25 22:54:15,487 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2019-12-25 22:54:15,488 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1471 ms
+2019-12-25 22:54:15,632 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2019-12-25 22:54:15,971 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2019-12-25 22:54:16,019 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-12-25 22:54:16,062 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.10.Final}
+2019-12-25 22:54:16,063 INFO org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2019-12-25 22:54:16,214 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-12-25 22:54:16,329 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-12-25 22:54:16,868 INFO org.hibernate.tuple.PojoInstantiator [main] HHH000182: No default (no-argument) constructor for class: com.enigma.finalproject.entity.Reservation (class must be instantiated by Interceptor)
+2019-12-25 22:54:16,989 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-12-25 22:54:17,281 INFO org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [main] HHH000397: Using ASTQueryTranslatorFactory
+2019-12-25 22:54:17,787 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-25 22:54:17,822 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-12-25 22:54:18,004 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-3456"]
+2019-12-25 22:54:18,022 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 3456 (http) with context path ''
+2019-12-25 22:54:18,025 INFO org.springframework.boot.StartupInfoLogger [main] Started Application in 4.458 seconds (JVM running for 4.762)
+2019-12-25 22:54:18,027 TRACE com.enigma.finalproject.Application [main] A trace message
+2019-12-25 22:54:18,027 DEBUG com.enigma.finalproject.Application [main] A debug message
+2019-12-25 22:54:18,027 INFO com.enigma.finalproject.Application [main] An Info message
+2019-12-25 22:54:18,027 WARN com.enigma.finalproject.Application [main] A Warn message
+2019-12-25 22:54:18,027 ERROR com.enigma.finalproject.Application [main] An Error Message
+2019-12-25 22:54:27,497 INFO org.apache.juli.logging.DirectJDKLog [http-nio-3456-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-25 22:54:27,497 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-3456-exec-1] Initializing Servlet 'dispatcherServlet'
+2019-12-25 22:54:27,507 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-3456-exec-1] Completed initialization in 9 ms
+2019-12-25 22:54:27,541 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-3456-exec-1] Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required Double parameter 'latitude' is not present]
+2019-12-25 22:56:31,001 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-2] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-12-25 22:56:31,006 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-2] Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-12-25 22:56:31,009 INFO com.zaxxer.hikari.HikariDataSource [Thread-2] HikariPool-1 - Shutdown initiated...
+2019-12-25 22:56:31,021 INFO com.zaxxer.hikari.HikariDataSource [Thread-2] HikariPool-1 - Shutdown completed.
+2019-12-25 22:56:39,009 INFO org.springframework.boot.StartupInfoLogger [main] Starting Application on irat with PID 15298 (/home/irat/eclipse-workspace/Final/target/classes started by irat in /home/irat/eclipse-workspace/Final)
+2019-12-25 22:56:39,011 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-12-25 22:56:39,012 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-12-25 22:56:39,625 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-25 22:56:39,717 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 85ms. Found 11 repository interfaces.
+2019-12-25 22:56:40,011 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d981732d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-25 22:56:40,252 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 3456 (http)
+2019-12-25 22:56:40,282 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-3456"]
+2019-12-25 22:56:40,293 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2019-12-25 22:56:40,293 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-12-25 22:56:40,408 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2019-12-25 22:56:40,408 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1361 ms
+2019-12-25 22:56:40,546 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2019-12-25 22:56:40,873 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2019-12-25 22:56:40,920 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-12-25 22:56:40,960 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.10.Final}
+2019-12-25 22:56:40,961 INFO org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2019-12-25 22:56:41,107 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-12-25 22:56:41,218 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-12-25 22:56:41,749 INFO org.hibernate.tuple.PojoInstantiator [main] HHH000182: No default (no-argument) constructor for class: com.enigma.finalproject.entity.Reservation (class must be instantiated by Interceptor)
+2019-12-25 22:56:41,859 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-12-25 22:56:42,132 INFO org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [main] HHH000397: Using ASTQueryTranslatorFactory
+2019-12-25 22:56:42,582 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-25 22:56:42,621 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-12-25 22:56:42,818 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-3456"]
+2019-12-25 22:56:42,832 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 3456 (http) with context path ''
+2019-12-25 22:56:42,835 INFO org.springframework.boot.StartupInfoLogger [main] Started Application in 4.199 seconds (JVM running for 4.49)
+2019-12-25 22:56:42,836 TRACE com.enigma.finalproject.Application [main] A trace message
+2019-12-25 22:56:42,836 DEBUG com.enigma.finalproject.Application [main] A debug message
+2019-12-25 22:56:42,836 INFO com.enigma.finalproject.Application [main] An Info message
+2019-12-25 22:56:42,837 WARN com.enigma.finalproject.Application [main] A Warn message
+2019-12-25 22:56:42,837 ERROR com.enigma.finalproject.Application [main] An Error Message
+2019-12-25 22:56:47,327 INFO org.apache.juli.logging.DirectJDKLog [http-nio-3456-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-25 22:56:47,327 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-3456-exec-2] Initializing Servlet 'dispatcherServlet'
+2019-12-25 22:56:47,334 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-3456-exec-2] Completed initialization in 6 ms
+2019-12-25 23:04:09,129 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-2] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-12-25 23:04:09,139 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-2] Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-12-25 23:04:09,144 INFO com.zaxxer.hikari.HikariDataSource [Thread-2] HikariPool-1 - Shutdown initiated...
+2019-12-25 23:04:09,161 INFO com.zaxxer.hikari.HikariDataSource [Thread-2] HikariPool-1 - Shutdown completed.
+2019-12-25 23:04:17,253 INFO org.springframework.boot.StartupInfoLogger [main] Starting Application on irat with PID 15499 (/home/irat/eclipse-workspace/Final/target/classes started by irat in /home/irat/eclipse-workspace/Final)
+2019-12-25 23:04:17,254 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-12-25 23:04:17,255 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-12-25 23:04:17,915 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-25 23:04:18,003 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 80ms. Found 11 repository interfaces.
+2019-12-25 23:04:18,396 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ee1d64aa] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-25 23:04:18,698 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 3456 (http)
+2019-12-25 23:04:18,716 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-3456"]
+2019-12-25 23:04:18,734 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2019-12-25 23:04:18,735 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-12-25 23:04:18,857 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2019-12-25 23:04:18,858 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1575 ms
+2019-12-25 23:04:19,024 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2019-12-25 23:04:19,355 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2019-12-25 23:04:19,404 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-12-25 23:04:19,444 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.10.Final}
+2019-12-25 23:04:19,445 INFO org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2019-12-25 23:04:19,559 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-12-25 23:04:19,686 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-12-25 23:04:20,223 INFO org.hibernate.tuple.PojoInstantiator [main] HHH000182: No default (no-argument) constructor for class: com.enigma.finalproject.entity.Reservation (class must be instantiated by Interceptor)
+2019-12-25 23:04:20,355 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-12-25 23:04:20,729 INFO org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [main] HHH000397: Using ASTQueryTranslatorFactory
+2019-12-25 23:04:21,287 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-25 23:04:21,329 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-12-25 23:04:21,539 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-3456"]
+2019-12-25 23:04:21,560 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 3456 (http) with context path ''
+2019-12-25 23:04:21,564 INFO org.springframework.boot.StartupInfoLogger [main] Started Application in 4.747 seconds (JVM running for 5.051)
+2019-12-25 23:04:21,566 TRACE com.enigma.finalproject.Application [main] A trace message
+2019-12-25 23:04:21,566 DEBUG com.enigma.finalproject.Application [main] A debug message
+2019-12-25 23:04:21,566 INFO com.enigma.finalproject.Application [main] An Info message
+2019-12-25 23:04:21,566 WARN com.enigma.finalproject.Application [main] A Warn message
+2019-12-25 23:04:21,566 ERROR com.enigma.finalproject.Application [main] An Error Message
+2019-12-25 23:04:25,953 INFO org.apache.juli.logging.DirectJDKLog [http-nio-3456-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-25 23:04:25,953 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-3456-exec-1] Initializing Servlet 'dispatcherServlet'
+2019-12-25 23:04:25,961 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-3456-exec-1] Completed initialization in 8 ms
+2019-12-25 23:05:23,485 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-2] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-12-25 23:05:23,498 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-2] Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-12-25 23:05:23,504 INFO com.zaxxer.hikari.HikariDataSource [Thread-2] HikariPool-1 - Shutdown initiated...
+2019-12-25 23:05:23,518 INFO com.zaxxer.hikari.HikariDataSource [Thread-2] HikariPool-1 - Shutdown completed.
+2019-12-25 23:05:30,768 INFO org.springframework.boot.StartupInfoLogger [main] Starting Application on irat with PID 15584 (/home/irat/eclipse-workspace/Final/target/classes started by irat in /home/irat/eclipse-workspace/Final)
+2019-12-25 23:05:30,771 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-12-25 23:05:30,771 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-12-25 23:05:31,466 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-25 23:05:31,569 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 92ms. Found 11 repository interfaces.
+2019-12-25 23:05:31,930 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$282b7f15] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-25 23:05:32,233 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 3456 (http)
+2019-12-25 23:05:32,250 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-3456"]
+2019-12-25 23:05:32,267 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2019-12-25 23:05:32,268 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-12-25 23:05:32,457 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2019-12-25 23:05:32,458 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1652 ms
+2019-12-25 23:05:32,614 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2019-12-25 23:05:32,944 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2019-12-25 23:05:32,996 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-12-25 23:05:33,041 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.10.Final}
+2019-12-25 23:05:33,042 INFO org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2019-12-25 23:05:33,185 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-12-25 23:05:33,316 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-12-25 23:05:33,886 INFO org.hibernate.tuple.PojoInstantiator [main] HHH000182: No default (no-argument) constructor for class: com.enigma.finalproject.entity.Reservation (class must be instantiated by Interceptor)
+2019-12-25 23:05:33,999 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-12-25 23:05:34,318 INFO org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [main] HHH000397: Using ASTQueryTranslatorFactory
+2019-12-25 23:05:34,859 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-25 23:05:34,903 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-12-25 23:05:35,135 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-3456"]
+2019-12-25 23:05:35,160 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 3456 (http) with context path ''
+2019-12-25 23:05:35,163 INFO org.springframework.boot.StartupInfoLogger [main] Started Application in 4.827 seconds (JVM running for 5.143)
+2019-12-25 23:05:35,165 TRACE com.enigma.finalproject.Application [main] A trace message
+2019-12-25 23:05:35,166 DEBUG com.enigma.finalproject.Application [main] A debug message
+2019-12-25 23:05:35,166 INFO com.enigma.finalproject.Application [main] An Info message
+2019-12-25 23:05:35,166 WARN com.enigma.finalproject.Application [main] A Warn message
+2019-12-25 23:05:35,166 ERROR com.enigma.finalproject.Application [main] An Error Message
+2019-12-25 23:05:39,696 INFO org.apache.juli.logging.DirectJDKLog [http-nio-3456-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-25 23:05:39,696 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-3456-exec-1] Initializing Servlet 'dispatcherServlet'
+2019-12-25 23:05:39,706 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-3456-exec-1] Completed initialization in 10 ms
