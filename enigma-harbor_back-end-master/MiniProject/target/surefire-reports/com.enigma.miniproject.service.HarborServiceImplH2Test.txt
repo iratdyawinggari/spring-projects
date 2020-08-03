@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: com.enigma.miniproject.service.HarborServiceImplH2Test
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 5.381 s <<< FAILURE! - in com.enigma.miniproject.service.HarborServiceImplH2Test
+saveTest(com.enigma.miniproject.service.HarborServiceImplH2Test)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'shipRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Paging query needs to have a Pageable parameter! Offending method public abstract org.springframework.data.domain.Page com.enigma.miniproject.repository.ShipRepository.findAll(java.awt.print.Pageable)
+Caused by: java.lang.IllegalArgumentException: Paging query needs to have a Pageable parameter! Offending method public abstract org.springframework.data.domain.Page com.enigma.miniproject.repository.ShipRepository.findAll(java.awt.print.Pageable)
+
+getByIdTest(com.enigma.miniproject.service.HarborServiceImplH2Test)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'shipRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Paging query needs to have a Pageable parameter! Offending method public abstract org.springframework.data.domain.Page com.enigma.miniproject.repository.ShipRepository.findAll(java.awt.print.Pageable)
+Caused by: java.lang.IllegalArgumentException: Paging query needs to have a Pageable parameter! Offending method public abstract org.springframework.data.domain.Page com.enigma.miniproject.repository.ShipRepository.findAll(java.awt.print.Pageable)
+
+getListTest(com.enigma.miniproject.service.HarborServiceImplH2Test)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'shipRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Paging query needs to have a Pageable parameter! Offending method public abstract org.springframework.data.domain.Page com.enigma.miniproject.repository.ShipRepository.findAll(java.awt.print.Pageable)
+Caused by: java.lang.IllegalArgumentException: Paging query needs to have a Pageable parameter! Offending method public abstract org.springframework.data.domain.Page com.enigma.miniproject.repository.ShipRepository.findAll(java.awt.print.Pageable)
+

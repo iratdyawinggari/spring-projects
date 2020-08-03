@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.enigma.miniproject.service.TransactionDetailStatusServiceImplTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.644 s <<< FAILURE! - in com.enigma.miniproject.service.TransactionDetailStatusServiceImplTest
+getListTest(com.enigma.miniproject.service.TransactionDetailStatusServiceImplTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected:<[com.enigma.miniproject.entity.TransactionDetailStatus@1b35f06a, com.enigma.miniproject.entity.TransactionDetailStatus@7fd4d278, com.enigma.miniproject.entity.TransactionDetailStatus@d57feda, com.enigma.miniproject.entity.TransactionDetailStatus@1f481ec3, com.enigma.miniproject.entity.TransactionDetailStatus@2b4a0be0]> but was:<[com.enigma.miniproject.entity.TransactionDetailStatus@72d44be3, com.enigma.miniproject.entity.TransactionDetailStatus@4047ca4d, com.enigma.miniproject.entity.TransactionDetailStatus@1fa67a80, com.enigma.miniproject.entity.TransactionDetailStatus@6448679f, com.enigma.miniproject.entity.TransactionDetailStatus@3413a3a6]>
+	at com.enigma.miniproject.service.TransactionDetailStatusServiceImplTest.getListTest(TransactionDetailStatusServiceImplTest.java:49)
+

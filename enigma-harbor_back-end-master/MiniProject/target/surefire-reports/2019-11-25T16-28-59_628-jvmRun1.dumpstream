@@ -1,0 +1,41 @@
+# Created at 2019-11-25T16:29:08.888
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2019-11-25T16:29:09.140
+Unexpected IOException with stream: 2019-11-25 16:29:09.140  INFO 8044 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+
+
+# Created at 2019-11-25T16:29:09.140
+Unexpected IOException with stream: 2019-11-25 16:29:09.140  WARN 8044 --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+
+
+# Created at 2019-11-25T16:29:09.468
+Unexpected IOException with stream: 2019-11-25 16:29:09.468  INFO 8044 --- [           main] c.e.m.service.DockServiceImplTest        : Started DockServiceImplTest in 4.309 seconds (JVM running for 9.605)
+
+
+# Created at 2019-11-25T16:29:09.468
+Unexpected IOException: 5,1,com.enigma.miniproject.service.DockServiceImplTest,addDock(com.enigma.miniproject.service.DockServiceImplTest),null,null,null
+
+
+# Created at 2019-11-25T16:29:09.468
+Unexpected IOException: 6,1,com.enigma.miniproject.service.DockServiceImplTest,addDock(com.enigma.miniproject.service.DockServiceImplTest),null,null,null
+
+
+# Created at 2019-11-25T16:29:09.468
+Unexpected IOException: 5,1,com.enigma.miniproject.service.DockServiceImplTest,updateDock(com.enigma.miniproject.service.DockServiceImplTest),null,null,null
+
+
+# Created at 2019-11-25T16:29:09.483
+Unexpected IOException: 6,1,com.enigma.miniproject.service.DockServiceImplTest,updateDock(com.enigma.miniproject.service.DockServiceImplTest),null,null,null
+
+
+# Created at 2019-11-25T16:29:09.483
+Unexpected IOException: 2,1,org.apache.maven.surefire.junit4.JUnit4Provider,com.enigma.miniproject.service.DockServiceImplTest,null,null,null
+
+
